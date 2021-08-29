@@ -18,8 +18,15 @@ class App extends React.Component {
     }));
     this.countTotalFeedback();
 
+
     this.countPositiveFeedbackPercentage();
   };
+
+  // onButtonClick = (e) => {
+  //   this.setState(prevState => ({
+  //     [e.target.textContent.toLowerCase()]: prevState[e.target.textContent.toLowerCase()] + 1,
+  //   }))};
+  
 
   onClickNeutral = () => {
     this.setState((prevState) => ({
